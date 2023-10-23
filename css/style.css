@@ -1,6 +1,6 @@
 /* Estilo para el cuerpo de la página */
 body {
-    background: #f3e2a9;
+    background: #c9aa61;
     width: 1000px;
     margin: 0 auto;
     font-family: Arial, sans-serif;
@@ -13,7 +13,7 @@ figure {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #3498db;
+    background: #b09046;
     float: left;
     transition: 3s;
     margin: 0;
@@ -23,7 +23,7 @@ figure {
 #titulo {
     width: 800px;
     height: 100px;
-    background: #2980b9;
+    background: #87857f;
     float: left;
 }
 
@@ -31,7 +31,7 @@ figure {
 #subtitulo {
     width: 800px;
     height: 100px;
-    background: #2ecc71;
+    background: #f5bd3b;
     float: left;
 }
 
@@ -41,7 +41,7 @@ figure {
     margin-top: 20px;
     margin-left: 60px;
     font-weight: bold;
-    color: #ffffff;
+    color: #f2e8d0;
 }
 
 /* Estilo para el texto dentro del subtítulo */
@@ -49,14 +49,14 @@ figure {
     font-size: 30px;
     margin-left: 60px;
     font-weight: bold;
-    color: #ffffff;
+    color: #f2e8d0;
 }
 
 /* Estilo para el menú de navegación */
 nav {
     width: 1000px;
     height: 60px;
-    background: #000;
+    background: #c9aa61;
     float: left;
 }
 
@@ -68,7 +68,7 @@ nav ul li {
 
 /* Estilo para los enlaces en el menú */
 nav ul li a {
-    color: #ffffff;
+    color: #000000;
     font-size: 17px;
     text-decoration: none;
     transition: 0.3s;
@@ -77,13 +77,13 @@ nav ul li a {
 /* Estilo para los enlaces en el menú cuando se hace hover */
 nav ul li a:hover {
     font-size: 25px;
-    color: #3498db;
+    color: #b09046;
 }
 
 /* Estilo especial para el enlace "Contacto" en hover */
 nav ul li #contacto:hover {
     font-size: 25px;
-    color: #e74c3c;
+    color: #c9aa61;
 }
 
 /* Estilo para secciones y aside */
@@ -102,7 +102,7 @@ section {
     font-size: 1.2em;
     text-align: justify;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #87857f;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
     margin: 10px;
 }
@@ -114,23 +114,22 @@ article {
 
 /* Estilo para el primer artículo */
 #perfil {
-    background-color: #ff6b6b;
+    background-color: #f5bd3b;
 }
 
 /* Estilo para el segundo artículo */
 #miproyecto {
-    background-color: #fdcb6e;
+    background-color: #f2e8d0;
 }
 
 /* Estilo para el aside */
 aside {
     width: 180px;
     position: relative;
-    background-color: #c7e1e2;
+    background-color: #b09046;
     box-shadow: 0px 2px 5px #1c1a19;
     border-radius: 5px;
     padding: 10px;
     color: #000;
     font-size: 0.9em;
 }
-
